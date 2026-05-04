@@ -4,39 +4,39 @@ body {
 
 .para,
 .small-para {
-  color: hsl(0, 0%, 0%);
-  font-weight: 800;
+  color: hsl(0, 0%, 2%);
+ 
+}
+.para {
+  font-size: 40px;
+  font-weight: 900;
 }
 
 .small-para {
-  font-size: 14px;
-  font-weight: 800;
+  font-size: 20px;
+  font-weight: 900;
 }
 
-.para {
-  font-size: 22px;
+.button {
+  background-color: rgb(238, 236, 236);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
-
 .confirm {
   background: green;
   color: white;
   font-weight: bold;
 } 
-
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
+div.text {
+  color: rgb(24, 2, 148);
+  font-size: 22px;
+  font-weight: 100;
 }
 
-.child {
-  color: rgb(0, 0, 0);
+div.child {
+  color: rgb(166, 36, 36);
   font-weight: 800;
   font-size: 14px;
 }
 
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
-}
+
