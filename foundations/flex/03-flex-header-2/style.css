@@ -9,40 +9,56 @@ body {
 }
 
 .header {
-  background: white;
-  border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  background: rgb(248, 248, 248);
+  border-bottom: 1px solid #7c3737;
+  box-shadow: 0 0 8px rgba(93, 14, 14, 0.1);
+  display: flex;
+  justify-content: center;
+  padding: 8px;
 }
 
 .profile-image {
-  background: rebeccapurple;
+  background: rgb(102, 51, 153);
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
   width: 48px;
   height: 48px;
+margin-left: 16px;
+
+
 }
 
 .logo {
-  color: rebeccapurple;
+  color: rgb(102, 51, 153);
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-right: 16px;
+
+
 }
 
 button {
   border: none;
   border-radius: 8px;
-  background: rebeccapurple;
+  background: rgb(102, 51, 153);
   color: white;
   padding: 8px 24px;
+  margin-left: auto;  
+ 
+  
+
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
-  color: rebeccapurple;
+  color: rebeccapurple; 
+
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
 }
